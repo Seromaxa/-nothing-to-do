@@ -1,0 +1,24 @@
+
+.conteiner{
+    max-width: 360px;
+    height:400px ;
+    padding: 20px calc(16px + 2 * ((100vw - 320px) / 768));
+    background: rgb(241, 236, 227);
+    border-radius: 5px;
+    box-shadow: 4px 4px 9px #000;
+}
+.title{
+    font-size: 24px;
+    text-align: center;
+}
+
+.body{
+    margin: 25px 0 0;
+    font-size: 18px;
+    font-style: italic;
+   max-height: 145px;
+   overflow-y: scroll;
+}
+.body::-webkit-scrollbar{
+    width: 0;
+}

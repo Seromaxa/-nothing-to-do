@@ -1,0 +1,16 @@
+@import "~normalize.css";
+@import "./variables.css";
+@import "./generals.css";
+
+* {
+  box-sizing: border-box;
+}
+.main {
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 450px) {
+  .main {
+    padding-top: 110px;
+  }
+}

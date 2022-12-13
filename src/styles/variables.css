@@ -1,0 +1,9 @@
+:root{
+    --card-background:rgb(229, 229, 229);
+    --card-width:155px;
+    --card-height:150px;
+    --card-margin:10px;
+    --root-back:rgb(237, 237, 233);
+    --shadow-color: rgb(219, 209, 198); 
+    --border-color:rgb(227, 213, 202);
+}

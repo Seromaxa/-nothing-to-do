@@ -1,0 +1,29 @@
+.list {
+  width: 360px;
+  height: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+  align-content: flex-start;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  margin-bottom: var(--card-margin);
+}
+
+.item:nth-child(odd) {
+  margin-right: var(--card-margin);
+}
+
+.list::-webkit-scrollbar {
+  width: 0;
+}
+
+@media screen and (max-width: 360px) {
+  .list {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
